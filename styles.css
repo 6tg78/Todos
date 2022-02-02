@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,400;0,600;0,900;1,900&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+body {
+    font-family: 'Archivo', 'sans-serif';
+    background-color: #ffa22f;
+}
+
+.container {
+    max-width: 500px;
+}
+
+input[type='text'],
+input[type='text']:focus {
+    color: black;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+.todos li {
+    background-color: #ffbe32;
+}
+
+.remove {
+    cursor: pointer;
+}
+
+.add-btn {
+    cursor: pointer;
+}
