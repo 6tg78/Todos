@@ -17,11 +17,6 @@ const generateTodo = (task) => {
     list.innerHTML += htmlTemplate;
 };
 
-// line through todo
-// todoSelector.addEventListener('click', (e) => {
-//     e.target.classList.add('line-through');
-// });
-
 // add todo
 addTask.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -33,7 +28,7 @@ addTask.addEventListener('submit', (e) => {
     }
 });
 
-///delete todos
+///delete todos and mark as complete
 list.addEventListener('click', (e) => {
     if (e.target.classList.contains('remove')) {
         e.target.parentElement.remove();
