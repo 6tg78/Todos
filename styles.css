@@ -17,7 +17,7 @@ input[type='text']:focus {
 }
 
 .todos li {
-    background-color: #ffbe32;
+    background-color: #ffb300;
 }
 
 .remove {
@@ -28,6 +28,6 @@ input[type='text']:focus {
     cursor: pointer;
 }
 
-/* .filtered {
-    display: none;
-} */
+.line-through {
+    text-decoration: line-through;
+}
